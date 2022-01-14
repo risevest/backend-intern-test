@@ -10,6 +10,7 @@ We just need to confirm you have what it takes. Good luck
 - [Node.js](https://nodejs.org/en/)
 - [yarn](https://yarnpkg.com/)
 - [Express](https://expressjs.com/)
+- [PostgreSQL](https://www.postgresql.org/)
 
 
 ## Installation
@@ -22,9 +23,10 @@ To start local dev server, type in the following command in your terminal:
 ```yarn start```
 
 The application should now be accessible on [http://localhost:3000](http://localhost:3000)
+You can choose the other dependencies you'll need(e.g. DB library)
 
 ### Task 1
-Implement registeration endpoint for user with the following details with appropriate validation
+Implement registeration endpoint for users with the following details with appropriate validation/
 - email address
 - first & last name
 - phone number
